@@ -1,0 +1,11 @@
+mode_211
+enable_trace
+establish_context
+card_connect
+
+select -AID 0102030405060708090000
+
+send_apdu -APDU 8010010201AE
+
+card_disconnect
+release_context

@@ -1,0 +1,3 @@
+ghdl -a --ieee=synopsys lfsr.vhd
+ghdl -a --ieee=synopsys lfsr_tb.vhd
+ghdl -r --ieee=synopsys lfsr_tb --vcd=lfsr.vcd

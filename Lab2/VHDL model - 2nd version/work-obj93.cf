@@ -1,0 +1,8 @@
+v 3
+file . "lfsr_tb.vhd" "20180306132420.000" "20180306082441.061":
+  entity lfsr_tb at 1( 0) + 0 on 24;
+  architecture complex of lfsr_tb at 9( 163) + 0 on 25;
+file . "lfsr.vhd" "20180226183610.000" "20180306082435.964":
+  entity lfsr at 1( 0) + 0 on 21;
+  architecture first of lfsr at 17( 490) + 0 on 22;
+  architecture second of lfsr at 52( 1589) + 0 on 23;
